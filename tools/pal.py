@@ -1,0 +1,32 @@
+"""Hateful Eight palette: named ramps, dark -> light, hue-shifted (shadows toward violet, lights toward warm).
+Shared by every generator and exported to game/palette.js."""
+PAL = dict(
+    ink='#1c1420',
+    # skins
+    sd1='#2c181c', sd2='#4c2a26', sd3='#6f412f', sd4='#935e3e',          # Warren, Minnie, Dave
+    sl1='#7a3f3a', sl2='#b5695a', sl3='#dc9677', sl4='#f2c29b',          # pale
+    st1='#62352a', st2='#975a3e', st3='#c18455', st4='#e0ad79',          # sun-tanned
+    # hair / beards
+    gy1='#3e3946', gy2='#6e6879', gy3='#a8a2b0', gy4='#dcd6dc',
+    hb1='#24171a', hb2='#3d2620', hb3='#5e3b28', hb4='#83573a',          # brown-black hair
+    hr1='#4a1e1a', hr2='#7a3420', hr3='#a8562c', hr4='#cf8442',          # ginger (Mannix)
+    # cloth
+    nv1='#141a33', nv2='#212a4c', nv3='#33416c', nv4='#4b5f93',          # Union navy
+    gd1='#6e4116', gd2='#ad7a26', gd3='#dbb144', gd4='#f4dc88',          # gold / brass
+    hk1='#211a26', hk2='#362c3d', hk3='#524559',                          # black felt
+    lb1='#2c1b18', lb2='#4c2f21', lb3='#734a2e', lb4='#9c6c42',          # leather
+    fr1='#2b1b16', fr2='#47301f', fr3='#6a4a33', fr4='#927050',          # fur
+    cg1='#383a4a', cg2='#5d6177', cg3='#8a8fa3', cg4='#babecb',          # Confederate grey
+    rd1='#45111f', rd2='#7a1a29', rd3='#b02c2d', rd4='#df583e',          # red
+    pt1='#211c23', pt2='#373036', pt3='#54484c',                          # dark trousers
+    cr1='#857a70', cr2='#bcb09e', cr3='#e6ddca',                          # shirt cream
+    pl1='#291a2e', pl2='#432949', pl3='#634069', pl4='#87608a',          # plum (Daisy)
+    gn1='#1d2a26', gn2='#2f4239', gn3='#4a6150', gn4='#6f8a6c',          # bottle green
+    mt1='#363b4b', mt2='#666e83', mt3='#aab2c2', mt4='#e4e9f0',          # gun metal
+    # world
+    sn1='#4f5a86', sn2='#7c8ab5', sn3='#aebadb', sn4='#dbe3f3', sn5='#f6f9ff',
+    wd1='#2a1917', wd2='#44281e', wd3='#643f2a', wd4='#875936', wd5='#ad804d', wd6='#cfa66c',
+    st_1='#2d2b35', st_2='#4a4855', st_3='#6e6c78', st_4='#9896a0',     # stone / iron stove
+    fi1='#7d2416', fi2='#c9501c', fi3='#ef942c', fi4='#ffd66a', fi5='#fff4c4',
+    white='#ffffff', black='#000000', night='#0d0a10', tea='#c9a66b',
+)
